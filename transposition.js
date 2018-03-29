@@ -2,20 +2,22 @@ let transposition = (myString, column, cb) => {
 
     createMatrix(myString, column, (err, matrix, row) => {
         let transposedMessage = '';
+        let decryptMessage = '';
+
         if (err) {
 
         } else {
             for (let j=0; j<column; j++) {
                 for (let i=0; i<row; i++) {
                     if (matrix[i][j] == null) {
-
+                        decryptMessage += '$';
                     } else {
                         transposedMessage += matrix[i][j];
+                        decryptMessage += matrix[i][j];
                     }
                 }
             }
-
-            return cb(null, transposedMessage);
+            return cb(null, transposedMessage, decryptMessage);
         }
     });
 };
@@ -56,14 +58,45 @@ let createMatrix = (myString, column, cb) => {
     return cb(null, matrix, row);
 };
 
-transposition('ABCDEF', 3, (err, encryptMessage) => {
+let decryptMessage = (encryptedMessage, column, cb) => {
+    encryptedMessage = encryptedMessage.split('');
+    let decryptMessage = '';
+    let reservedMessage = '';
+    let length = encryptedMessage.length - 1;
+    let index = 0;
+    for (let i=0; i<length; i++) {
+        if (encryptedMessage[index] == '$') {
+            reservedMessage += encryptedMessage[index];
+        } else {
+            decryptMessage += encryptedMessage[index];
+            reservedMessage += encryptedMessage[index];
+        }
+
+        index += column;
+
+        if (index >= length) {
+            index = index - length;
+        }
+    }
+    cb(null, decryptMessage, reservedMessage);
+};
+
+transposition('DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING', 10, (err, encryptMessage, reservedMessage) => {
     if (err) {
 
     } else {
-        console.log(encryptMessage);
-        transposition(encryptMessage, 3, (err, decryptMessage) => {
-            console.log(decryptMessage);
-        })
+        console.log('AFTER ENCRYPTION');
+        console.log('   Encrypted message: ' + encryptMessage);
+        console.log('   Reserved message:' + reservedMessage);
+        decryptMessage(reservedMessage, 10, (err, decryptedMessage, reservedMessage) => {
+            if (err) {
+
+            } else {
+                console.log('AFTER DECRYPTION');
+                console.log('   Decryped message: ' + decryptedMessage);
+                console.log('   Reserved message: ' + reservedMessage);
+            }
+        });
     }
 });
 
