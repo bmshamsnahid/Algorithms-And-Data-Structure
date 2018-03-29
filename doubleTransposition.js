@@ -1,5 +1,6 @@
-let message = 'DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING';
-let sector = 10;
+// let message = 'DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING';
+let message = 'abcdefghijklmn';
+let sector = 3;
 
 let transposition = (myString, column, cb) => {
 
@@ -67,7 +68,7 @@ let decryptMessage = (encryptedMessage, column, cb) => {
     let reservedMessage = '';
     let length = encryptedMessage.length - 1;
     let index = 0;
-    for (let i=0; i<length; i++) {
+    for (let i=0; i<=length; i++) {
         if (encryptedMessage[index] == '$') {
             reservedMessage += encryptedMessage[index];
         } else {
@@ -81,6 +82,11 @@ let decryptMessage = (encryptedMessage, column, cb) => {
             index = index - length;
         }
     }
+
+    console.log('--------------------------');
+    console.log('Decrypt: ' + decryptMessage);
+    console.log('Reserved: ' + reservedMessage);
+
     cb(null, decryptMessage, reservedMessage);
 };
 
@@ -90,17 +96,31 @@ transposition(message, sector, (err, encryptMessage, reservedMessage, row) => {
     if (err) {
 
     } else {
-        console.log('AFTER ENCRYPTION');
-        console.log('   Encrypted message: ' + encryptMessage);
-        console.log('   Reserved message:' + reservedMessage);
-        decryptMessage(reservedMessage, row, (err, decryptedMessage, reservedMessage) => {
+        transposition(encryptMessage, sector, (err, encryptMessage, reservedMessage, row) => {
             if (err) {
 
             } else {
-                console.log('AFTER DECRYPTION');
-                console.log('   Decryped message: ' + decryptedMessage);
-                console.log('   Reserved message: ' + reservedMessage);
+                console.log('AFTER ENCRYPTION');
+                console.log('   Encrypted message: ' + encryptMessage);
+                console.log('   Reserved message:' + reservedMessage);
             }
+            decryptMessage(reservedMessage, row, (err, decryptedMessage, reservedMessage) => {
+                if (err) {
+
+                } else {
+                    console.log('First Dec: ' + decryptedMessage);
+                    console.log('First Res: ' + reservedMessage);
+                    decryptMessage(reservedMessage, row, (err, decryptedMessage, reservedMessage) => {
+                        if (err) {
+
+                        } else {
+                            console.log('AFTER DECRYPTION');
+                            console.log('   Decrypted message: ' + decryptedMessage);
+                            console.log('   Reserved message: ' + reservedMessage);
+                        }
+                    });
+                }
+            });
         });
     }
 });

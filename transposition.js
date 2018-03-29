@@ -1,5 +1,7 @@
-let message = 'DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING';
-let sector = 10;
+//let message = 'DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING';
+
+let message = 'abcdefghijklmn';
+let sector = 3;
 
 let transposition = (myString, column, cb) => {
 
@@ -67,7 +69,7 @@ let decryptMessage = (encryptedMessage, column, cb) => {
     let reservedMessage = '';
     let length = encryptedMessage.length - 1;
     let index = 0;
-    for (let i=0; i<length; i++) {
+    for (let i=0; i<=length; i++) {
         if (encryptedMessage[index] == '$') {
             reservedMessage += encryptedMessage[index];
         } else {
