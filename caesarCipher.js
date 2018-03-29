@@ -32,7 +32,7 @@ const caesarCipher = (mainString, num, cb) => {
     cb(newString);
 };
 
-caesarCipher('Zoo Keeper', 2, (result) => {
+caesarCipher('Zoo Keeper', -1, (result) => {
     console.log('Result is: ' + result);
 });
 
