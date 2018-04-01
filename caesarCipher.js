@@ -1,11 +1,12 @@
 const caesarCipher = (mainString, num, cb) => {
     console.log(mainString);
-    var newString = '', currentIndex, newIndex;
 
-    myString = mainString.toLowerCase().split('');
-    var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    let newString = '', currentIndex, newIndex;
 
-    var index = 0;
+    let myString = mainString.toLowerCase().split('');
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+    let index = 0;
     myString.map((val) => {
         if (!alphabet.includes(val)) {
             newString += val;
@@ -20,7 +21,6 @@ const caesarCipher = (mainString, num, cb) => {
         if (newIndex < 0) newIndex += 26;
 
         if (mainString.charAt(index) == val.toUpperCase()) {
-            console.log('Uppercase');
             newString += alphabet[newIndex].toUpperCase();
         } else {
             newString += alphabet[newIndex];
@@ -32,7 +32,7 @@ const caesarCipher = (mainString, num, cb) => {
     cb(newString);
 };
 
-caesarCipher('Zoo Keeper', -1, (result) => {
+caesarCipher('Bqq Mggrgt', -55, (result) => {
     console.log('Result is: ' + result);
 });
 
