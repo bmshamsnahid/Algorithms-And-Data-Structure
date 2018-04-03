@@ -24,3 +24,4 @@ isPalindrome("Madam I'm Adam", (isPalindrome) => {
     if (isPalindrome == true) console.log('True');
     else console.log('False');
 });
+
