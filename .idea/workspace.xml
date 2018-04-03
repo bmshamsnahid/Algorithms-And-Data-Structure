@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab581ee-8bc1-4eb4-bf6d-51c84ba92f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twoSum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/binarySearch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meanMedianMode.js" afterPath="$PROJECT_DIR$/meanMedianMode.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,31 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reverseArrayInPlace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reverseArrayInPlace.js">
+      <file leaf-file-name="binarySearch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/binarySearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meanMedianMode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meanMedianMode.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twoSum.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twoSum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -78,6 +57,7 @@
         <option value="$PROJECT_DIR$/timeout.js" />
         <option value="$PROJECT_DIR$/meanMedianMode.js" />
         <option value="$PROJECT_DIR$/twoSum.js" />
+        <option value="$PROJECT_DIR$/binarySearch.js" />
       </list>
     </option>
   </component>
@@ -168,12 +148,12 @@
       <workItem from="1520795682011" duration="1409000" />
       <workItem from="1522316218026" duration="20884000" />
       <workItem from="1522592501574" duration="7040000" />
-      <workItem from="1522739151862" duration="11532000" />
+      <workItem from="1522739151862" duration="14629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50124000" />
+    <option name="totallyTimeSpent" value="53221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="-17" width="1343" height="786" extended-state="6" />
@@ -279,14 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reverseArrayInPlace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harmlessRansomNote.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -335,6 +307,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twoSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meanMedianMode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -343,10 +323,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twoSum.js">
+    <entry file="file://$PROJECT_DIR$/reverseArrayInPlace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarySearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
       </provider>
