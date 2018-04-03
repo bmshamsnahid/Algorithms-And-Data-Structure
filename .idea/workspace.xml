@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab581ee-8bc1-4eb4-bf6d-51c84ba92f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reverseWords.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oneTimePad.js" afterPath="$PROJECT_DIR$/oneTimePad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reverseArrayInPlace.js" afterPath="$PROJECT_DIR$/reverseArrayInPlace.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reverseWords.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reverseWords.js">
+      <file leaf-file-name="reverseArrayInPlace.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reverseArrayInPlace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -54,6 +53,7 @@
         <option value="$PROJECT_DIR$/oneTimePad.js" />
         <option value="$PROJECT_DIR$/isPalindrome.js" />
         <option value="$PROJECT_DIR$/reverseWords.js" />
+        <option value="$PROJECT_DIR$/reverseArrayInPlace.js" />
       </list>
     </option>
   </component>
@@ -144,12 +144,12 @@
       <workItem from="1520795682011" duration="1409000" />
       <workItem from="1522316218026" duration="20884000" />
       <workItem from="1522592501574" duration="7040000" />
-      <workItem from="1522739151862" duration="2797000" />
+      <workItem from="1522739151862" duration="3876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41389000" />
+    <option name="totallyTimeSpent" value="42468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="-17" width="1343" height="786" extended-state="6" />
@@ -287,6 +287,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverseArrayInPlace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
