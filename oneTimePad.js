@@ -93,13 +93,13 @@ oneTimePadMethodDecryption = (message, oneTimePad, cb) => {
     return cb(null, encryptedMessage);
 };
 
-oneTimePadMethodEncryption('M', 'M', (err, encryptedMessage) => {
+oneTimePadMethodEncryption('ZM', 'ZM', (err, encryptedMessage) => {
     if (err) {
         console.log(err);
     } else {
         console.log('Encrypted Message: ' + encryptedMessage);
         console.log('----------------------------------------------------------------------------------------');
-        oneTimePadMethodDecryption(encryptedMessage, 'M', (err, decryptedMessage) => {
+        oneTimePadMethodDecryption(encryptedMessage, 'ZM', (err, decryptedMessage) => {
             if (err) {
                 console.log(err);
             } else {
