@@ -46,7 +46,6 @@ let getMeanMedianMode = (myArray, cb) => {
       median: getMedian(myArray),
       mode: getMode(myArray)
     };
-
     return cb(null, myObject);
 };
 
