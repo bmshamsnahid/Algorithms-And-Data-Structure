@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab581ee-8bc1-4eb4-bf6d-51c84ba92f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/memorizedFibonacci.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sieveOfEratosthenes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="memorizedFibonacci.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/memorizedFibonacci.js">
+      <file leaf-file-name="sieveOfEratosthenes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sieveOfEratosthenes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/binarySearch.js" />
         <option value="$PROJECT_DIR$/fibonacci.js" />
         <option value="$PROJECT_DIR$/memorizedFibonacci.js" />
+        <option value="$PROJECT_DIR$/sieveOfEratosthenes.js" />
       </list>
     </option>
   </component>
@@ -151,12 +152,12 @@
       <workItem from="1522316218026" duration="20884000" />
       <workItem from="1522592501574" duration="7040000" />
       <workItem from="1522739151862" duration="17202000" />
-      <workItem from="1522825180864" duration="549000" />
+      <workItem from="1522825180864" duration="1147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56343000" />
+    <option name="totallyTimeSpent" value="56941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="-3" width="1341" height="771" extended-state="6" />
@@ -354,6 +355,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sieveOfEratosthenes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
       </provider>
