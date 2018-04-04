@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab581ee-8bc1-4eb4-bf6d-51c84ba92f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mergeSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxStockPrice.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mergeSort.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mergeSort.js">
+      <file leaf-file-name="maxStockPrice.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maxStockPrice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/sieveOfEratosthenes.js" />
         <option value="$PROJECT_DIR$/bubbleSort.js" />
         <option value="$PROJECT_DIR$/mergeSort.js" />
+        <option value="$PROJECT_DIR$/maxStockPrice.js" />
       </list>
     </option>
   </component>
@@ -154,12 +155,12 @@
       <workItem from="1522316218026" duration="20884000" />
       <workItem from="1522592501574" duration="7040000" />
       <workItem from="1522739151862" duration="17202000" />
-      <workItem from="1522825180864" duration="5158000" />
+      <workItem from="1522825180864" duration="6608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60952000" />
+    <option name="totallyTimeSpent" value="62402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="-3" width="1341" height="771" extended-state="6" />
@@ -383,6 +384,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxStockPrice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
